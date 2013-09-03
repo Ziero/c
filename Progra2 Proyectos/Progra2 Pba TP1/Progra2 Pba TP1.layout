@@ -6,6 +6,7 @@
 			<Cursor1 position="158" topLine="0" />
 		</Cursor>
 	</File>
+<<<<<<< HEAD
 	<File name="..\..\Progra2 Archivos\utilitarios.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="27" topLine="0" />
@@ -19,14 +20,35 @@
 	<File name="..\..\Progra2 Archivos\utilitarios.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1734" topLine="18" />
+=======
+	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="401" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\Progra2 Archivos\utilitarios.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1862" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\Progra2 Archivos\numeros.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1886" topLine="96" />
+>>>>>>> cfb3a1e0167fe3c8b6a4faa5ceb259bb8ee51858
 		</Cursor>
 		<Folding>
 			<Collapse line="17" />
 		</Folding>
 	</File>
+<<<<<<< HEAD
 	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="148" topLine="0" />
+=======
+	<File name="..\..\Progra2 Archivos\utilitarios.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="27" topLine="0" />
+>>>>>>> cfb3a1e0167fe3c8b6a4faa5ceb259bb8ee51858
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

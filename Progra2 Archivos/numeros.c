@@ -94,3 +94,25 @@ double raizcuadrada4(double x, double tolerancia)
     } while(fabs(diferencia)>tolerancia);
     return r;
 }
+
+
+int esFibonacci(int n)
+{
+    int a =0;
+    int b =1;
+    if (n==a || n == b)
+        return 1;
+    int c = a+b;
+    while(c<n)
+    {
+        if(c==n)
+         return 1;
+        a=b;
+        b=c;
+        c=a+b;
+    }
+    return 0;
+}
+
+
+
