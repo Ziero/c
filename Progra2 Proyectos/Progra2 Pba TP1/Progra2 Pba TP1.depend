@@ -61,7 +61,11 @@
 
 1377906806 source:c:\users\cris\documents\github\c\progra2 archivos\fecha.c
 
+<<<<<<< HEAD
+1378218410 source:c:\users\cris\documents\github\c\progra2 archivos\numeros.c
+=======
 1378230013 source:c:\users\cris\documents\github\c\progra2 archivos\numeros.c
+>>>>>>> cfb3a1e0167fe3c8b6a4faa5ceb259bb8ee51858
 	"numeros.h"
 	<stdio.h>
 	<math.h>
@@ -74,7 +78,11 @@
 
 1378218328 c:\users\cris\documents\github\c\progra2 archivos\utilitarios.h
 
+<<<<<<< HEAD
+1378218328 source:c:\users\cris\documents\github\c\progra2 proyectos\progra2 pba tp1\main.c
+=======
 1378229997 source:c:\users\cris\documents\github\c\progra2 proyectos\progra2 pba tp1\main.c
+>>>>>>> cfb3a1e0167fe3c8b6a4faa5ceb259bb8ee51858
 	<stdio.h>
 	<stdlib.h>
 	"..\..\Progra2 Archivos\utilitarios.h"
