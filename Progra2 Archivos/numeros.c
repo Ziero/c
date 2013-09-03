@@ -33,9 +33,9 @@ void ejercicio4()
 {
     double a,b,r;
     printf("ingrese un valor para calcular su raiz cuadrada\n");
-    scanf("%e%e",&a,&b);
+    scanf("%lf%lf",&a,&b);
     r=raizcuadrada4(a,b);
-    printf("la raiz cuadrada es \t%e",r);
+    printf("la raiz cuadrada es \t%f",r);
 }
 int factorial(int n)
 {
