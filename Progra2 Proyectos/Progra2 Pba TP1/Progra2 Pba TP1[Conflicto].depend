@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1377307396 source:e:\progra2 archivos\utilitarios.c
+	"utilitarios.h"
+	<stdio.h>
+
+1377307216 e:\progra2 archivos\utilitarios.h
+
+1377307476 source:e:\progra2 proyectos\progra2 pba tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"..\..\Progra2 Archivos\utilitarios.h"
+
+1377557476 source:e:\c\progra2 proyectos\progra2 pba tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"..\..\Progra2 Archivos\utilitarios.h"
+
+1377468742 e:\c\progra2 archivos\utilitarios.h
+
+1377640260 source:e:\c\progra2 archivos\utilitarios.c
+	"utilitarios.h"
+	<stdio.h>
+
+1377905846 source:c:\users\zierot00\workspacec\c\progra2 archivos\utilitarios.c
+	"utilitarios.h"
+	<stdio.h>
+
+1377732127 c:\users\zierot00\workspacec\c\progra2 archivos\utilitarios.h
+
+1377732210 source:c:\users\zierot00\workspacec\c\progra2 proyectos\progra2 pba tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"..\..\Progra2 Archivos\utilitarios.h"
+	"..\..\Progra2 Archivos\numeros.h"
+
+1377907514 source:c:\users\zierot00\workspacec\c\progra2 archivos\numeros.c
+	"numeros.h"
+	<stdio.h>
+	<math.h>
+
+1377905154 c:\users\zierot00\workspacec\c\progra2 archivos\numeros.h
+
