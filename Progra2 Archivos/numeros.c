@@ -85,12 +85,12 @@ float exponencial3 (float x,float tol)
 }
 double raizcuadrada4(double x, double tolerancia)
 {
-    double diferencia=0.0f,t0=1.0f,t1=0.0f;
+    double diferencia=0.0f,t0=1.0f,r=0.0f;
     do
     {
-        t1=(0.5f)*(t0+x/t0);
-        diferencia=t1-t0;
+        r=(0.5f)*(t0+x/t0);
+        diferencia=r-t0;
         t0=t1;
     } while(fabs(diferencia)>tolerancia);
-    return t1;
+    return r;
 }
