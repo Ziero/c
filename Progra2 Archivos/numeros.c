@@ -90,7 +90,7 @@ double raizcuadrada4(double x, double tolerancia)
     {
         r=(0.5f)*(t0+x/t0);
         diferencia=r-t0;
-        t0=t1;
+        t0=r;
     } while(fabs(diferencia)>tolerancia);
     return r;
 }
