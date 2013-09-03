@@ -8,7 +8,7 @@ void ejercicio1()
     printf("introdusca un numero para calcular su factorial\n");
     scanf("%d",&a);
     a=factorial(a);
-    printf("el factorial es \t%d",a);
+    printf("el factorial es \t%d",a);//hjjjjb 
 }
 void ejercicio2()
 {
