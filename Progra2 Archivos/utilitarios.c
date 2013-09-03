@@ -2,12 +2,14 @@
 #include <stdio.h>
 #define e=2.71828182846;
 
+
 // funciones
 char menu(const char opc[][30], const char*titulo)
 {
     char op=pedir_opcion (opc,titulo,"elija titulo\n");
     while (!strchr (opc[0],op))
         op=pedir_opcion(opc,titulo, "opcion erronea, ingresela nuevamente");
+        system("cls");
 
     return op;
 }
