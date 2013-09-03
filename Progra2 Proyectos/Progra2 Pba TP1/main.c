@@ -4,6 +4,9 @@
 #include "..\..\Progra2 Archivos\numeros.h"
 int main()
 {
+
+
+        printf("es fibonacci\n");
     const char opciones[][30]={"NFVMQ",
                                "Numeros",
                                "Fechas",

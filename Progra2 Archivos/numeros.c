@@ -8,7 +8,7 @@ void ejercicio1()
     printf("introdusca un numero para calcular su factorial\n");
     scanf("%d",&a);
     a=factorial(a);
-    printf("el factorial es \t%d",a);//hjjjjb 
+    printf("el factorial es \t%d",a);
 }
 void ejercicio2()
 {
@@ -33,9 +33,9 @@ void ejercicio4()
 {
     double a,b,r;
     printf("ingrese un valor para calcular su raiz cuadrada\n");
-    scanf("%e%e",&a,&b);
+    scanf("%lf%lf",&a,&b);
     r=raizcuadrada4(a,b);
-    printf("la raiz cuadrada es \t%e",r);
+    printf("la raiz cuadrada es \t%f",r);
 }
 int factorial(int n)
 {
@@ -94,3 +94,25 @@ double raizcuadrada4(double x, double tolerancia)
     } while(fabs(diferencia)>tolerancia);
     return r;
 }
+
+
+int esFibonacci(int n)
+{
+    int a =0;
+    int b =1;
+    if (n==a || n == b)
+        return 1;
+    int c = a+b;
+    while(c<n)
+    {
+        if(c==n)
+         return 1;
+        a=b;
+        b=c;
+        c=a+b;
+    }
+    return 0;
+}
+
+
+
