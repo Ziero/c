@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1378258505 source:c:\users\zierot00\workspacec\c\progra2 proyectos\practicas\archivos\funcionesdepractica.c
+	<stdio.h>
+	"funcionesdepractica.h"
+
+1378258480 c:\users\zierot00\workspacec\c\progra2 proyectos\practicas\archivos\funcionesdepractica.h
+
+1378258480 source:c:\users\zierot00\workspacec\c\progra2 proyectos\practicas\archivos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionesdepractica.h"
+
