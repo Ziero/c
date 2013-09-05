@@ -59,7 +59,8 @@
 	"utilitarios.h"
 	<stdio.h>
 
-1378236400 source:c:\users\cris\documents\github\c\progra2 archivos\fecha.c
+1378336308 source:c:\users\cris\documents\github\c\progra2 archivos\fecha.c
+	"fecha.h"
 
 1378218328 D
 
@@ -85,9 +86,12 @@
 
 1378218328 c:\users\cris\documents\github\c\progra2 archivos\utilitarios.h
 
-1378249964 source:c:\users\cris\documents\github\c\progra2 proyectos\progra2 pba tp1\main.c
+1378336533 source:c:\users\cris\documents\github\c\progra2 proyectos\progra2 pba tp1\main.c
 	<stdio.h>
 	<stdlib.h>
+	"..\..\Progra2 Archivos\fecha.h"
 	"..\..\Progra2 Archivos\utilitarios.h"
 	"..\..\Progra2 Archivos\numeros.h"
+
+1378335618 c:\users\cris\documents\github\c\progra2 archivos\fecha.h
 
