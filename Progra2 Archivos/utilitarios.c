@@ -46,7 +46,7 @@ void funcion_numeros()
                                };
     char op;
     do{
-        op=menu(opcionesNumero, "Programa de Prueba del TP1");
+        op=menu(opcionesNumero, "Menu de ejercicios numericos del TP1");
         switch(op){
             case '1': ejercicio1(); pausa(""); break;
             case '2': ejercicio2(); pausa(""); break;
@@ -65,7 +65,7 @@ void funcion_fechas()
                                };
     char op;
     do{
-        op=menu(opcionesNumero, "Programa de Prueba del TP1");
+        op=menu(opcionesNumero, "Menu de ejercicios con fechas del TP1");
         switch(op){
             case '1': ejercicio14(); pausa(""); break;
         }

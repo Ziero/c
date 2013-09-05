@@ -17,9 +17,10 @@ void ejercicio2()
     printf("ingrese los numeros a calcular la combinatoria\n");
     scanf("%d%d",&a,&b);
     r=combinatoria(a,b);
-    printf("la combinatoria es \t%f",r);
-
-
+    if (r!=0)
+        printf("la combinatoria es \t%f",r);
+    else
+        printf("Combinatoria erronea\n\n");
 }
 void ejercicio3()
 {
@@ -51,17 +52,13 @@ int factorial(int n)
 float combinatoria (int a, int b)
 {
     int fa,fb,res=a-b,fr;
-    float r;
+    float r=0;
     if (a>=b && b>=0)
     {
         fa=factorial(a);
         fb=factorial(b);
         fr=factorial(res);
         r=fa/(fb*fr);
-    }
-    else
-    {
-        printf("error a no es mas grande que b");
     }
 return r;
 }
