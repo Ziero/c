@@ -1,7 +1,5 @@
 #include "utilitarios.h"
 #include <stdio.h>
-#define e=2.71828182846;
-
 
 // funciones
 char menu(const char opc[][30], const char*titulo)

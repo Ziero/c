@@ -24,7 +24,7 @@ void ejercicio2()
 void ejercicio3()
 {
     float a,b,r;
-    printf("ingrese la exponencial que quiere calcular y su tolerancia");
+    printf("ingrese la exponencial que quiere calcular y su tolerancia\n");
     scanf("%f%f",&a,&b);
     r=exponencial3(a,b);
     printf("la exponncial es \t%f",r);
