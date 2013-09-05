@@ -10,5 +10,7 @@ float combinatoria (int,int);
 float exponencial3 (float,float);
 double raizcuadrada4(double,double);
 int potencia(int,int);
+int esFibonacci(int);
+
 
 #endif // NUMEROS_H_INCLUDED

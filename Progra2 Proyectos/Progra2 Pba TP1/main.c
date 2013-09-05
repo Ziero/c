@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "..\..\Progra2 Archivos\fecha.h"
 #include "..\..\Progra2 Archivos\utilitarios.h"
 #include "..\..\Progra2 Archivos\numeros.h"
 int main()
 {
-
-
-        printf("es fibonacci\n");
     const char opciones[][30]={"NFVMQ",
                                "Numeros",
                                "Fechas",

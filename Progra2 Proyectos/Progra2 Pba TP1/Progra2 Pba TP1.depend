@@ -59,32 +59,39 @@
 	"utilitarios.h"
 	<stdio.h>
 
-1377906806 source:c:\users\cris\documents\github\c\progra2 archivos\fecha.c
+1378336308 source:c:\users\cris\documents\github\c\progra2 archivos\fecha.c
+	"fecha.h"
 
-<<<<<<< HEAD
-1378218410 source:c:\users\cris\documents\github\c\progra2 archivos\numeros.c
-=======
-1378230013 source:c:\users\cris\documents\github\c\progra2 archivos\numeros.c
->>>>>>> cfb3a1e0167fe3c8b6a4faa5ceb259bb8ee51858
+1378218328 D
+
+1378249947 source:c:\users\cris\documents\github\c\progra2 archivos\numeros.c
 	"numeros.h"
 	<stdio.h>
 	<math.h>
 
-1378218328 c:\users\cris\documents\github\c\progra2 archivos\numeros.h
+1378229997 3a1e0167fe3c8b6a4faa5ceb259bb8ee51858
+	"numeros.h"
+	<stdio.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"..\..\Progra2 Archivos\utilitarios.h"
+	"..\..\Progra2 Archivos\numeros.h"
 
-1378219822 source:c:\users\cris\documents\github\c\progra2 archivos\utilitarios.c
+1378249607 c:\users\cris\documents\github\c\progra2 archivos\numeros.h
+
+1378236400 source:c:\users\cris\documents\github\c\progra2 archivos\utilitarios.c
 	"utilitarios.h"
 	<stdio.h>
 
 1378218328 c:\users\cris\documents\github\c\progra2 archivos\utilitarios.h
 
-<<<<<<< HEAD
-1378218328 source:c:\users\cris\documents\github\c\progra2 proyectos\progra2 pba tp1\main.c
-=======
-1378229997 source:c:\users\cris\documents\github\c\progra2 proyectos\progra2 pba tp1\main.c
->>>>>>> cfb3a1e0167fe3c8b6a4faa5ceb259bb8ee51858
+1378336533 source:c:\users\cris\documents\github\c\progra2 proyectos\progra2 pba tp1\main.c
 	<stdio.h>
 	<stdlib.h>
+	"..\..\Progra2 Archivos\fecha.h"
 	"..\..\Progra2 Archivos\utilitarios.h"
 	"..\..\Progra2 Archivos\numeros.h"
+
+1378335618 c:\users\cris\documents\github\c\progra2 archivos\fecha.h
 
