@@ -3,6 +3,7 @@
 #include "..\..\Progra2 Archivos\fecha.h"
 #include "..\..\Progra2 Archivos\utilitarios.h"
 #include "..\..\Progra2 Archivos\numeros.h"
+#include "..\..\Progra2 Archivos\vectores.h"
 int main()
 {
     const char opciones[][30]={"NFVMQ",
@@ -17,7 +18,7 @@ int main()
         switch(op){
             case 'N': funcion_numeros(); pausa(""); break;
             case 'F': funcion_fechas(); pausa(""); break;
-            case 'V': printf("\nEligio opcion V"); pausa(""); break;
+            case 'V': funcion_vectores(); pausa(""); break;
             case 'M': printf("\nEligio opcion M"); pausa(""); break;
         }
     } while(op!='Q');

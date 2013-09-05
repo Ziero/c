@@ -77,6 +77,25 @@ void funcion_fechas()
     pausa("Menu principal");
 
 }
+void funcion_vectores()
+{
+    const char opcionesNumero[][30]={"123V",
+                               "ejercicio",
+                               "ejercicio",
+                               "ejercicio",
+                               "Volver"
+                               };
+    char op;
+    do{
+        op=menu(opcionesNumero, "Menu de ejercicios con fechas del TP1");
+        switch(op){
+            case '1': ejercicio14(); pausa(""); break;
+            case '2': ejercicio15(); pausa(""); break;
+            case '3': ejercicio16(); pausa(""); break;
+        }
+    } while(op!='V');
+    pausa("Menu principal");
+}
 int polinodromo (char c[]) // char * c ( seria lo mismo) "ejecicio de vector"
 {
     int len, i;
