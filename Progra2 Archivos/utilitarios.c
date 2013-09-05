@@ -59,8 +59,9 @@ void funcion_numeros()
 }
 void funcion_fechas()
 {
-    const char opcionesNumero[][30]={"1V",
+    const char opcionesNumero[][30]={"12V",
                                "ejercicio14",
+                               "ejercicio15"
                                "Volver"
                                };
     char op;
@@ -68,6 +69,7 @@ void funcion_fechas()
         op=menu(opcionesNumero, "Menu de ejercicios con fechas del TP1");
         switch(op){
             case '1': ejercicio14(); pausa(""); break;
+            case '2': ejercicio15(); pausa(""); break;
         }
     } while(op!='V');
     pausa("Menu principal");

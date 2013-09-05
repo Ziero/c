@@ -13,6 +13,14 @@ void ejercicio14()
     else
         printf("fecha invalida");
 }
+void ejercicio15 ()
+{
+    t_fecha fecha;
+    printf("escriba una fecha para calcular su dia siguiente (formato dd/mm/aaaa)\n");
+    scanf("%d/%d/%d",&fecha.dia,&fecha.mes,&fecha.anio);
+    diasiguientefecha(&fecha);
+    printf("el dia siguiente a la fecha sera %d/%d/%d",fecha.dia,fecha.mes,fecha.anio);
+}
 
  int esBisiesto(int a)                  // SACO SI UN ANIO ES BISIESTO
 {                                           // PERO LO HAGO EN LA MACRO
@@ -62,4 +70,18 @@ int mesMenor(int m1,int a1,int m2,int a2)
     int n1=a1*100+m1;
     int n2=a2*100+m2;
     return n1<n2; // SI ES VERDADERO DEVUELVE 1, SI NO 0 (EXPRECION BOOLEANA)
+}
+int diasiguientefecha(t_fecha * f) // La funcion sirve para calcular el dia siguiente a una fecha dada (ej.15)
+{
+    f->dia++;
+    if ((f->dia-1)>=cantdiasmes(f->mes,f->anio))
+    {
+        f->dia=1;
+        f->mes++;
+        if (f->mes>=12)
+        {
+                f->mes=1;
+                f->anio++;
+        }
+    }
 }
