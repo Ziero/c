@@ -59,9 +59,10 @@ void funcion_numeros()
 }
 void funcion_fechas()
 {
-    const char opcionesNumero[][30]={"12V",
+    const char opcionesNumero[][30]={"123V",
                                "ejercicio14",
-                               "ejercicio15"
+                               "ejercicio15",
+                               "ejercicio16",
                                "Volver"
                                };
     char op;
@@ -70,6 +71,7 @@ void funcion_fechas()
         switch(op){
             case '1': ejercicio14(); pausa(""); break;
             case '2': ejercicio15(); pausa(""); break;
+            case '3': ejercicio16(); pausa(""); break;
         }
     } while(op!='V');
     pausa("Menu principal");

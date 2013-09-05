@@ -18,8 +18,29 @@ void ejercicio15 ()
     t_fecha fecha;
     printf("escriba una fecha para calcular su dia siguiente (formato dd/mm/aaaa)\n");
     scanf("%d/%d/%d",&fecha.dia,&fecha.mes,&fecha.anio);
-    diasiguientefecha(&fecha);
-    printf("el dia siguiente a la fecha sera %d/%d/%d",fecha.dia,fecha.mes,fecha.anio);
+    if (esFechaValida(&fecha))
+    {
+        diasiguientefecha(&fecha);
+        printf("el dia siguiente a la fecha sera %d/%d/%d",fecha.dia,fecha.mes,fecha.anio);
+    }
+    else
+         printf("fecha invalida");
+}
+void ejercicio16()
+{
+    t_fecha fecha;
+    int n;
+    printf("escriba una fecha para calcular al sumar N dias (formato dd/mm/aaaa)\n");
+    scanf("%d/%d/%d",&fecha.dia,&fecha.mes,&fecha.anio);
+    if (esFechaValida(&fecha))
+    {
+        printf("escriba la cantidad de dias a sumar\n");
+        scanf("%d",&n);
+        fechamasNdias(&fecha,n);
+        printf("el dia siguiente a la fecha sera %d/%d/%d",fecha.dia,fecha.mes,fecha.anio);
+    }
+    else
+        printf("fecha invalida");
 }
 
  int esBisiesto(int a)                  // SACO SI UN ANIO ES BISIESTO
@@ -77,6 +98,20 @@ int diasiguientefecha(t_fecha * f) // La funcion sirve para calcular el dia sigu
     if ((f->dia-1)>=cantdiasmes(f->mes,f->anio))
     {
         f->dia=1;
+        f->mes++;
+        if (f->mes>=12)
+        {
+                f->mes=1;
+                f->anio++;
+        }
+    }
+}
+int fechamasNdias(t_fecha * f,int n)
+{
+    f->dia=f->dia+n;
+    while ((f->dia)>=cantdiasmes(f->mes,f->anio))
+    {
+        f->dia=f->dia-cantdiasmes(f->mes,f->anio);
         f->mes++;
         if (f->mes>=12)
         {
