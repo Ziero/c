@@ -2,9 +2,9 @@
 #define UTILITARIOS_H_INCLUDED
 
 void funcion_numeros();
-char funcion_fechas();
-char funcion_vectores();
-char funcion_matrices();
+void funcion_fechas();
+void funcion_vectores();
+void funcion_matrices();
 char menu(const char [][30], const char*);
 char pedir_opcion(const char [][30], const char* titulo, const char* msj);
 void pausa(const char*);

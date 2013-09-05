@@ -39,16 +39,11 @@ void pausa(const char *msj)
 
 void funcion_numeros()
 {
-    const char opcionesNumero[][30]={"123456789V",
+    const char opcionesNumero[][30]={"1234V",
                                "ejercicio1",
                                "ejercicio2",
                                "ejercicio3",
                                "ejercicio4",
-                               "ejercicio5",
-                               "ejercicio6",
-                               "ejercicio7",
-                               "ejercicio8",
-                               "ejercicio9",
                                "Volver"
                                };
     char op;
@@ -64,7 +59,23 @@ void funcion_numeros()
     pausa("Menu principal");
 
 }
-int polinodromo (char c[]) // char * c ( seria lo mismo)
+void funcion_fechas()
+{
+    const char opcionesNumero[][30]={"1V",
+                               "ejercicio14",
+                               "Volver"
+                               };
+    char op;
+    do{
+        op=menu(opcionesNumero, "Programa de Prueba del TP1");
+        switch(op){
+            case '1': ejercicio14(); pausa(""); break;
+        }
+    } while(op!='V');
+    pausa("Menu principal");
+
+}
+int polinodromo (char c[]) // char * c ( seria lo mismo) "ejecicio de vector"
 {
     int len, i;
    // char caux[];//un auxiliar para guardar los datos originales

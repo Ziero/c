@@ -95,3 +95,28 @@
 
 1378335618 c:\users\cris\documents\github\c\progra2 archivos\fecha.h
 
+1378349253 source:c:\users\zeros_000\google drive\programación\workspace c\c\progra2 archivos\fecha.c
+	"fecha.h"
+
+1378348926 c:\users\zeros_000\google drive\programación\workspace c\c\progra2 archivos\fecha.h
+
+1378347422 source:c:\users\zeros_000\google drive\programación\workspace c\c\progra2 archivos\numeros.c
+	"numeros.h"
+	<stdio.h>
+	<math.h>
+
+1378347422 c:\users\zeros_000\google drive\programación\workspace c\c\progra2 archivos\numeros.h
+
+1378348833 source:c:\users\zeros_000\google drive\programación\workspace c\c\progra2 archivos\utilitarios.c
+	"utilitarios.h"
+	<stdio.h>
+
+1378349295 c:\users\zeros_000\google drive\programación\workspace c\c\progra2 archivos\utilitarios.h
+
+1378348833 source:c:\users\zeros_000\google drive\programación\workspace c\c\progra2 proyectos\progra2 pba tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"..\..\Progra2 Archivos\fecha.h"
+	"..\..\Progra2 Archivos\utilitarios.h"
+	"..\..\Progra2 Archivos\numeros.h"
+

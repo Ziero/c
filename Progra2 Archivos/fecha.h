@@ -6,6 +6,7 @@ typedef struct
     int mes;
     int anio;
 }t_fecha;
+void ejercicio14();
 int cantdiasmes(int,int);
 int esFechaValida(t_fecha*);
 int difDia(t_fecha*,t_fecha*);

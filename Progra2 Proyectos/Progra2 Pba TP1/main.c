@@ -16,7 +16,7 @@ int main()
         op=menu(opciones, "Programa de Prueba del TP1");
         switch(op){
             case 'N': funcion_numeros(); pausa(""); break;
-            case 'F': printf("\nEligio opcion F"); pausa(""); break;
+            case 'F': funcion_fechas(); pausa(""); break;
             case 'V': printf("\nEligio opcion V"); pausa(""); break;
             case 'M': printf("\nEligio opcion M"); pausa(""); break;
         }

@@ -1,6 +1,18 @@
 #include "fecha.h"
 //#define esBisiesto(x) (x%4==0&&x%10!=0||x%400==0 ? 1:0) //ESTO ES UNA MACRO
 
+void ejercicio14()
+{
+    t_fecha fecha;
+    int r;
+    printf("escriba una fecha para validar (formato dd/mm/aaaa)\n");
+    scanf("%d/%d/%d",&fecha.dia,&fecha.mes,&fecha.anio);
+    r=esFechaValida(&fecha);
+    if (r==1)
+        printf("fecha valida");
+    else
+        printf("fecha invalida");
+}
 
  int esBisiesto(int a)                  // SACO SI UN ANIO ES BISIESTO
 {                                           // PERO LO HAGO EN LA MACRO
