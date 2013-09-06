@@ -80,8 +80,8 @@ void funcion_fechas()
 void funcion_vectores()
 {
     const char opcionesNumero[][30]={"123V",
-                               "ejercicio",
-                               "ejercicio",
+                               "ejercicio22",
+                               "ejercicio ",
                                "ejercicio",
                                "Volver"
                                };
@@ -89,9 +89,8 @@ void funcion_vectores()
     do{
         op=menu(opcionesNumero, "Menu de ejercicios con fechas del TP1");
         switch(op){
-            case '1': ejercicio14(); pausa(""); break;
-            case '2': ejercicio15(); pausa(""); break;
-            case '3': ejercicio16(); pausa(""); break;
+            case '1': ejercicio22(); pausa(""); break;
+
         }
     } while(op!='V');
     pausa("Menu principal");
